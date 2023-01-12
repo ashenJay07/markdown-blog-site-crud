@@ -1,0 +1,36 @@
+1. npm init -y / npm init --yes     (-y, --yes are flags)
+
+2. npm i express mongoose ejs   (we can use i or install)
+        - express => allows us to create a server 
+        - mongoose => used for database works
+        - ejs => used for different views
+
+3. npm i --save-dev nodemon     => refresh our application after every single change 
+
+===============================================================================================
+Difference between => Dependencies vs. Dev. Dependencies
+
+    ► "dependencies" : Packages required by your application in production. 
+    ► "devDependencies" : Packages that are only needed for local development and testing.
+===============================================================================================
+
+4. ► Delete default Scripts and add these =>
+
+        "scripts": {
+            "devStart": "nodemon server.js"
+        }  
+
+   ► Create => server.js 
+   ► We can start server using this command => npm run devStart
+
+5. npm i marked slugify
+        - marked => allow us to create markdown and turn it into HTML
+        - slugify => convert something (like title) into a URL friendly slug
+                        eg: some string => some-string
+
+
+
+
+
+
+https://www.youtube.com/watch?v=1NrHkjlWVhM
